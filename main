@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#SBATCH --job-name=dtifit
+#SBATCH --ntasks-per-node=1
+#SBATCH --mem=2G
+#SBATCH --time=00:10:00
+
+# Copyright (c) 2020 brainlife.io at University of Texas at Austin and Indiana University
+#
+# This is the main file run by the brainlife.io orchestration system
+#
+# Author: Shaun Warrington
+
+# make output directory
+mkdir -p out_dir
+
+# run the actual python code
+singularity exec docker://brainlife/fsl:6.0.4-patched2 run_dtifit.sh
