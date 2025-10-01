@@ -12,7 +12,7 @@
 # Author: Shaun Warrington
 
 # make output directory
-mkdir -p dtifit
+mkdir -p tensor
 
 # run the actual python code
 singularity exec docker://brainlife/fsl:6.0.4-patched2 run_dtifit.sh
