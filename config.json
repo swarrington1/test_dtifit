@@ -1,6 +1,6 @@
 {
-   "dwi":    "testdata/dwi/dwi.nii.gz",
-   "bvals":    "testdata/dwi/dwi.bvals",
-   "bvecs":    "tesdata/dwi/dwi.bvecs",
-   "mask":    "testdata/mask/mask.nii.gz",
+  "dwi": "../testdata/dwi/dwi.nii.gz",
+  "bvals": "../testdata/dwi/dwi.bvals",
+  "bvecs": "../testdata/dwi/dwi.bvecs",
+  "mask": "../testdata/mask/mask.nii.gz"
 }
